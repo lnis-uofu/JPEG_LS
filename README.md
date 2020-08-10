@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="http://1.bp.blogspot.com/-vm2DmP04b_0/V9LJ4c9_EEI/AAAAAAAAArc/eAgtSNkV0GUszzy9OlAUoJfbt_dX8UyEQCK4B/s1600/Screen%2BShot%2B2016-09-09%2Bat%2B9.39.53%2BAM.png" alt="Logo" width="1000" height="400">
   </a>
 
   <h3 align="center">JPEG-LS</h3>
@@ -60,32 +60,20 @@ JPEG-LS consists of three distinct and independent components:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+All of the Verilog, MATLAB, and Python files needed for full integration and testing are located witin the Design Files folder.<br>
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
+User will need Python3.7, Modelsim, and MATLAB to execute this deisgn.
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
 ```sh
 git clone https://github.com/your_username_/Project-Name.git
 ```
-3. Install NPM packages
-```sh
-npm install
-```
-4. Enter your API in `config.js`
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
+2. Install Python3.7
+3. Install Modelsim
 
 
 
