@@ -8,7 +8,7 @@
   <h3 align="center">JPEG-LS</h3>
 
   <p align="center">
-    7 Stage Pipelined Hardware Implementation of Lossless Image Encoding
+    7-Stage Pipelined Hardware Implementation of Lossless Image Encoding
   </p>
 </p>
 
