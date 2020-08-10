@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="http://1.bp.blogspot.com/-vm2DmP04b_0/V9LJ4c9_EEI/AAAAAAAAArc/eAgtSNkV0GUszzy9OlAUoJfbt_dX8UyEQCK4B/s1600/Screen%2BShot%2B2016-09-09%2Bat%2B9.39.53%2BAM.png" alt="Logo" width="1000" height="400">
+    <img src="http://1.bp.blogspot.com/-vm2DmP04b_0/V9LJ4c9_EEI/AAAAAAAAArc/eAgtSNkV0GUszzy9OlAUoJfbt_dX8UyEQCK4B/s1600/Screen%2BShot%2B2016-09-09%2Bat%2B9.39.53%2BAM.png" alt="Logo" width="1000" height="300">
   </a>
 
   <h3 align="center">JPEG-LS</h3>
