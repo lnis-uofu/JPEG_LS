@@ -1,17 +1,5 @@
 //Top Level Module
 
-/** NOTE
-*	Final Design is not complete, code needs to be cleaned up with priority/parallel code, this is a base for the design, still need to add the pixel memory for the 2 rows, 
-*	it will most likely be an outside module that interfaces via the port list.
-*
-*	The output is variable size and changes based on mode/compression of Golomb code, there will need to be an external module that interfaces with this design
-*	and samples the data on the stream (amount based on data_size decimal representation), most likely on a faster clock domain. This was done to ensure
-*	no pipeline stalls.
-*
-*	Due to the need for a header and footer marker per start/end of video stream there is a 48 clock cycle windup, and 16 clock cycle wind-down due to the 
-*	header and footer senteniels
-*/
-
 `timescale 1ns/1ns
 `include "JPEG_FSM.v"
 `include "Stage1Registers.v"
