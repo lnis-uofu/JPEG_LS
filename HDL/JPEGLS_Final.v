@@ -30,8 +30,8 @@
 ======================================================================================================================================================================================================
 	AUTHOR: GRANT BROWN (LNIS)
 	DATE: 4/18/2020
-	DESCRIPTION: Lossless JPEG Encoder Implementation. 7 stage pipeline with minimal stalls. Input is pixel data, output is variable size pixel data which has been encoded. In the 
-		     case of a long run mode the maximum output size is 32 bits. Compression runs (2~3):1.
+	DESCRIPTION: Lossless JPEG Encoder Implementation. 7 stage pipeline with minimal stalls. Input is pixel data, output is variable size pixel data which has been encoded. 
+	             Maximum output size is 64 bits. Compression runs (2~3):1.
 ======================================================================================================================================================================================================
 */
 
