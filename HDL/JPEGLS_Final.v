@@ -23,6 +23,7 @@
 `include "RiceEncoding.v"
 `include "BitPackerUnrolled.v"
 `include "Stage6Registers.v"
+`include "Stage7Registers.v"
 `include "Parameterize_JPEGLS.v"
 
 /* 
