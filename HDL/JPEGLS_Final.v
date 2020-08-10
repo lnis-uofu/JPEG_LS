@@ -174,7 +174,6 @@ module JPEGLS_Final #(parameter pixel_length = `pixel_length, colindex_length = 
 /*
 ======================================================================================================================================================================================================
 	Third to Fourth Stage pipeline registers and Context Memory
-	//Need to figure out how to reset the run values when run_interruption mode is occured and not set when mode is regular
 ======================================================================================================================================================================================================
 */
 	wire [Q_length - 1:0] Q_4;
