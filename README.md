@@ -5,19 +5,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">JPEG-LS</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    7 Stage Pipelined Hardware Implementation of Lossless Image Encoding
   </p>
 </p>
 
@@ -45,22 +36,24 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
+JPEG-LS is the standardization of the LOCO-I (LOw COmplexity LOssless COmpression for Images) algorithm at the core of the ISO/ITU T.87 standard. The ITU T.87 standard describes lossless and near-lossless compression of continuous-tone images. The algorithm is developed as a "low complexity implementation" of the standard universal context modeling paradign.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+JPEG-LS is implemented as a simple fixed context modeling machine, which can compete with more complex implementations of universal techniques for capturing high-order dependencies of contextual information (ex. CABAC). The model of JPEG-LS is tuned for optimal performance jointly with limited-length Golomb-type codes. To increase compression standards, an embedded alphabet extension for coding of low-entropy image regions is deployed.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
+LOCO-I attains roughly a compression ratio of 3:1, which is similar or superior to encoding algorithms obtained with state-of-the-art schemes based off complex context modeling in conjuction with arithmetic coding. In addition, the complexity levels of the JPEG-LS implementation are exiguous when compared to state-of-the-art implementations.
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+JPEG-LS consists of three distinct and independent components:
+
+<br><b>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  1) Prediction<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  2) Context Modeling<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  3) Coding<br>
+<br></b>
 
 ### Built With
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+* Verilog
+* MATLAB
+* Python
 
 
 
