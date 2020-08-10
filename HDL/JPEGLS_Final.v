@@ -20,7 +20,6 @@
 `include "Context_Update.v"
 `include "k_calculation.v"
 `include "Stage5Registers.v"
-//`include "GolombEncoding.v"
 `include "RiceEncoding.v"
 `include "BitPackerUnrolled.v"
 `include "Stage6Registers.v"
