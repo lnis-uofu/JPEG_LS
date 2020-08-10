@@ -55,6 +55,7 @@ JPEG-LS consists of three distinct and independent components:
 ## Getting Started
 
 All of the Verilog, MATLAB, and Python files needed for full integration and testing are located witin the Design Files folder.<br>
+The top level module is <b><i> JPEGLS_Final.v </i></b><br>
 For a comprehensive design guide along with testing procedures refer to the <b><i> Lossless JPEG Design Guide </i></b> located in Design Files.
 
 ### Prerequisites
