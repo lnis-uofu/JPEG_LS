@@ -9,7 +9,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-JPEG-LS is the standardization of the LOCO-I (LOw COmplexity LOssless COmpression for Images) algorithm at the core of the ISO/ITU T.87 standard. The ITU T.87 standard describes lossless and near-lossless compression of continuous-tone images. The algorithm is developed as a "low complexity implementation" of the standard universal context modeling paradign.
+JPEG-LS is the standardization of the LOCO-I (LOw COmplexity LOssless COmpression for Images) algorithm at the core of the ISO/ITU T.87 standard. The ITU T.87 standard describes lossless and near-lossless compression of continuous-tone images. The algorithm is developed as a "low complexity implementation" of the standard universal context modeling paradigm.
 
 JPEG-LS is implemented as a simple fixed context modeling machine, which can compete with more complex implementations of universal techniques for capturing high-order dependencies of contextual information (ex. CABAC). The model of JPEG-LS is tuned for optimal performance jointly with limited-length Golomb-type codes. To increase compression standards, an embedded alphabet extension for coding of low-entropy image regions is deployed.
 
