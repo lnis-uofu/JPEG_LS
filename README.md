@@ -13,7 +13,7 @@ JPEG-LS is the standardization of the LOCO-I (LOw COmplexity LOssless COmpressio
 
 JPEG-LS is implemented as a simple fixed context modeling machine, which can compete with more complex implementations of universal techniques for capturing high-order dependencies of contextual information (ex. CABAC). The model of JPEG-LS is tuned for optimal performance jointly with limited-length Golomb-type codes. To increase compression standards, an embedded alphabet extension for coding of low-entropy image regions is deployed.
 
-LOCO-I attains roughly a compression ratio of 3:1, which is similar or superior to encoding algorithms obtained with state-of-the-art schemes based off complex context modeling in conjuction with arithmetic coding. In addition, the complexity levels of the JPEG-LS implementation are exiguous when compared to state-of-the-art implementations.
+The LOCO-I standardization of JPEG-LS attains roughly a compression ratio of 3:1, which is similar or superior to encoding algorithms obtained with state-of-the-art schemes based off complex context modeling in conjuction with arithmetic coding. However, the complexity levels of the JPEG-LS implementation are exiguous when compared to state-of-the-art implementations, making ASIC implementation straightforward.
 
 JPEG-LS consists of three distinct and independent components:
 
