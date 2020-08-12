@@ -50,30 +50,6 @@ module LimitOverflowEncoding #(parameter encodedpixel_width = `encodedpixel_widt
 ======================================================================================================================================================================================================
 */
 
-		/* 
-			Barrel Shifter will be used here. 
-
-		---------------------------------------------------------------------------------------------------------------------------------------
-
-			For mode == 0 the maximum shift will be 7 because if there was 7 bit of previous byte overflow we will need
-			to shift remainder_length by 7 to account for the 7 bits of overflow being appended to the LSBs
-
-		---------------------------------------------------------------------------------------------------------------------------------------
-
-			For mode == 2 the design is slightly more intracite because the unary coding of 0's is dependent on J value. 
-
-			If eor_limit + previous_byteoverflow_encoded_data_length > 23 then shift right, max shift is 7 with 
-			previous_byteoverflow_encoded_data_length == 7 and eor_limit == 23.
-
-			If eor_limit + previous_byteoverflow_encoded_data_length == 23 then no shift
-
-			If eor limit + previous_byteoverflow_encoded_data_length < 23 then shift left, max shift is 
-			eor limit lower bound == 7 and previous_byteoverflow_encoded_data_length == 0 so shift would be
-			32 - 7 - 9 = 16
-
-		---------------------------------------------------------------------------------------------------------------------------------------
-		*/
-
 	BarrelShifter BSH (.PreShiftData(PreShiftData), .ShiftAmount(Shift_Amount), .PostShiftData(PostShiftData));
 
 	Encode_Limit EL (.previous_byteoverflow_encoded_data_length(previous_byteoverflow_encoded_data_length), .remainder_value(remainder_value),
